@@ -11218,6 +11218,11 @@ hr.divider-light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
 }
+@media (max-width: 510px) {
+  .logotipo {
+    max-width: 350px;
+  }
+}
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
